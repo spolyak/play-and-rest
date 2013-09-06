@@ -1,4 +1,4 @@
-Description [ ![Codeship Status for spolyak/science-misconceptions](https://www.codeship.io/projects/cc3a2b60-f865-0130-e001-7a7e050a0c1a/status?branch=master)](https://www.codeship.io/projects/6680)
+Description [ ![Codeship Status for spolyak/play-and-rest](https://www.codeship.io/projects/c2d51d50-f95f-0130-a15f-72cd8d71f4db/status?branch=master)](https://www.codeship.io/projects/6723)
 =============
 
 play-and-rest
