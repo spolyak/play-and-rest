@@ -4,8 +4,8 @@ import play.api.data.Form
 import play.api.data.Forms.{ single, nonEmptyText }
 import play.api.mvc.{ Action, Controller }
 import anorm.NotAssigned
-import dispatch._, Defaults._
-    
+//import dispatch._
+
 import models.Bar
 import com.codahale.jerkson.Json
 
@@ -37,9 +37,9 @@ object Application extends Controller {
   }
 
   def getRecommendations() = Action {
-    val svc = url("http://api.hostip.info/country.php")
-    val country = Http(svc OK as.String)
-    Ok(country)
+    //val svc = url("http://api.hostip.info/country.php")
+    //val country = Http(svc OK as.String)
+    Ok("US")
   }
 }
 
