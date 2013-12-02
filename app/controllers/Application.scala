@@ -36,7 +36,7 @@ object Application extends Controller {
   }
 
   def getRecommendations() = Action {
-    Ok("FooBarz")
+    Ok("FooBarzzz")
   }
 }
 
