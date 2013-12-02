@@ -11,3 +11,5 @@ GET     /assets/*file               controllers.Assets.at(path="/public", file)
 POST    /addBar                     controllers.Application.addBar
 
 GET     /listBars                   controllers.Application.listBars
+
+GET     /recommend                   controllers.Application.getRecommendations

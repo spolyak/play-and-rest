@@ -35,6 +35,9 @@ object Application extends Controller {
     Ok(json).as("application/json")
   }
 
+  def getRecommendations() = Action {
+    Ok("Foo")
+  }
 }
 
 
